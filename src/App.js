@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react';
+import "./App.css"
 const HookTwo=()=>{
 const[booklist,UpdateBook]=useState(["HTML","css","Javascript","Bootstrap"])
 const[message,UpdateMess]=useState("");
@@ -30,7 +31,7 @@ return(
    <div>
       <div>
           <div>
-        <h2>useState(),spread operator,Single dimensional array</h2>
+        <h2 className='nm'>useState(),spread operator,Single dimensional array</h2>
         <h1> Total Books:{booklist.length}</h1>
         <p>
                         <input type="text" 
