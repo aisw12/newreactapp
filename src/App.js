@@ -33,6 +33,7 @@ return(
           <div>
         <h2 className='nm'>useState(),spread operator,Single dimensional array</h2>
         <h1> Total Books:{booklist.length}</h1>
+        <div className='xyz'>
         <p>
                         <input type="text" 
                             onChange={obj=>Pickbook(obj.target.value)}
@@ -46,9 +47,10 @@ return(
                     </p>
 
         <p>{message}</p>
-        <table className="table table-bordered shadow">
+        <div className='ggg'>
+        <table className="xyz table table-bordered shadow">
             <thead>
-                <tr className="bg-light text-danger">
+                <tr className="xyz bg-light text-danger">
                     <th>Book id</th>
                     <th>Book name</th>
                     <th>Action</th>
@@ -74,6 +76,8 @@ return(
             </tbody>
 
         </table>
+          </div>
+          </div>
           </div>
           <div className="row">
               <div className="'col-lg-12">

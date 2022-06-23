@@ -175,3 +175,11 @@ ul li::before {
   text-align: center;
   padding:55px;
 }
+.xyz{
+  text-align: center;
+  width:90%;
+}
+.ggg{
+  margin-left:10px;
+  margin-bottom: 40px;
+}
